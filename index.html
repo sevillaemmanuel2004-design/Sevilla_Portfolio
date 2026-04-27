@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel R. Sevilla | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">ES</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#visualizations" class="nav-link">Visualizations</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Emmanuel</span>
+                    <span class="title-line">R. Sevilla</span>
+                </h1>
+                <p class="hero-subtitle">Developer & Data Storyteller</p>
+                <div class="hero-description">
+                    <p>Crafting digital experiences through code, data visualization, and machine learning</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">I'm a 22-year-old developer passionate about creating meaningful digital experiences through web development, machine learning, and data visualization.</p>
+                    <div class="about-details">
+                        <div class="about-item">
+                            <h3>Background</h3>
+                            <p>With a foundation in computer science and a keen interest in both technical and creative pursuits, I bridge the gap between data and design.</p>
+                        </div>
+                        <div class="about-item">
+                            <h3>Interests</h3>
+                            <ul class="hobbies-list">
+                                <li>Music Production</li>
+                                <li>Digital Art</li>
+                                <li>Gaming & Interactive Media</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Valorant API -->
+                <div class="project-card" data-project="valorant">
+                    <div class="project-image">
+                        <img src="1777280558203_image.png" alt="Valorant Fan Page">
+                        <div class="project-overlay">
+                            <div class="project-description">
+                                <p>A valorant fan page that uses the official Valorant API for requesting the character data of the characters from the game Valorant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Valorant Fan Page API</h3>
+                        <p class="project-tech">API Integration • Web Development</p>
+                        <a href="https://valorant-fanpage-sevilla.onrender.com/" target="_blank" class="project-link">View Live Site →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: AmielVerse -->
+                <div class="project-card" data-project="amielverse">
+                    <div class="project-image">
+                        <img src="1777280665068_image.png" alt="AmielVerse">
+                        <div class="project-overlay">
+                            <div class="project-description">
+                                <p>A prototype social media website made as a final activity submission for a Web Development class</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">AmielVerse</h3>
+                        <p class="project-tech">Social Media • Full Stack</p>
+                    </div>
+                </div>
+
+                <!-- Project 3: ML KNN Classification -->
+                <div class="project-card" data-project="ml-classification">
+                    <div class="project-image">
+                        <img src="ML_A3Poster.png" alt="ML KNN Classification">
+                        <div class="project-overlay">
+                            <div class="project-description">
+                                <p>This project showcases a machine learning approach to predicting survival in a simulated zombie apocalypse scenario. I used a k-Nearest Neighbors (k-NN) model to classify individuals as "human" or "zombie" based on factors like resource availability, environmental conditions, and proximity to urban areas. The workflow included data preprocessing, feature engineering, model selection, and evaluation, achieving 87.5% accuracy at k = 14.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">The Virus Follows Proximity</h3>
+                        <p class="project-tech">Machine Learning • k-NN Classification</p>
+                    </div>
+                </div>
+
+                <!-- Project 4: Fish Weight Estimation -->
+                <div class="project-card" data-project="fish-weight">
+                    <div class="project-image">
+                        <img src="G4_kNN_Regression.png" alt="Fish Weight Estimation">
+                        <div class="project-overlay">
+                            <div class="project-description">
+                                <p>This project demonstrates how machine learning can estimate fish weight without using a physical scale. I built a k-Nearest Neighbors (k-NN) regression model using fish measurements like length, height, and width, along with species type, to predict weight. The workflow covers data collection, preprocessing, model tuning, and evaluation, achieving around 97–98% prediction accuracy with an optimal k value of 5.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Fish Weight Estimation</h3>
+                        <p class="project-tech">Machine Learning • k-NN Regression</p>
+                    </div>
+                </div>
+
+                <!-- Project 5: USTP Chatbot -->
+                <div class="project-card" data-project="chatbot">
+                    <div class="project-image">
+                        <img src="1777281581168_image.png" alt="USTP Handbook Chatbot">
+                        <div class="project-overlay">
+                            <div class="project-description">
+                                <p>A chatbot deployed on hugging face, it is an LLM specifically designed to answer questions regarding the USTP Handbook</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">USTP Handbook Chatbot</h3>
+                        <p class="project-tech">NLP • LLM • HuggingFace</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visualizations Section -->
+    <section id="visualizations" class="visualizations">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Data Visualizations</h2>
+            </div>
+            <div class="viz-grid">
+                <!-- Viz 1: Bivariate Map -->
+                <div class="viz-card" data-viz="bivariate">
+                    <div class="viz-image">
+                        <img src="Bivariate_Map.png" alt="Bivariate Map">
+                    </div>
+                    <div class="viz-info">
+                        <h3 class="viz-title">Philippines Income & Inequality</h3>
+                        <p class="viz-description">A 3D bivariate map of income and inequality in the Philippines</p>
+                        <p class="viz-team">Clark Tagalog, Arcel Bacuetes, Zynea Balistoy, Gem Nicole Diones, Emmanuel Sevilla</p>
+                    </div>
+                </div>
+
+                <!-- Viz 2: Flood Control -->
+                <div class="viz-card" data-viz="flood">
+                    <div class="viz-image">
+                        <img src="EDA_POSTER.png" alt="Flood Control Project">
+                    </div>
+                    <div class="viz-info">
+                        <h3 class="viz-title">Flood Control Project Mapping</h3>
+                        <p class="viz-description">A Geospatial Exploratory Data Analysis of Regional Distribution and Cost Patterns</p>
+                        <p class="viz-team">Eleijah Sevare, Hannah Llesis, Kyle Mallari, Jade Natasha Ragot, Emmanuel Sevilla</p>
+                    </div>
+                </div>
+
+                <!-- Viz 3: Endangered Animals -->
+                <div class="viz-card" data-viz="animals">
+                    <div class="viz-image">
+                        <img src="Infographics.png" alt="Endangered Animals">
+                    </div>
+                    <div class="viz-info">
+                        <h3 class="viz-title">Endangered Animals in the Philippines</h3>
+                        <p class="viz-description">A data-driven infographic highlighting the decline of critically endangered species</p>
+                        <p class="viz-team">Kevin Lloyd Baul, Charisse Canete, Gabriel Ramirez, Ara Galario, Althea Panilag, Gabriela Mae Lapad, Emmanuel R. Sevilla</p>
+                    </div>
+                </div>
+
+                <!-- Viz 4: Marcos Infographic -->
+                <div class="viz-card" data-viz="marcos">
+                    <div class="viz-image">
+                        <img src="Reaching_for_Justice.png" alt="Marcos Infographic">
+                    </div>
+                    <div class="viz-info">
+                        <h3 class="viz-title">Reaching for Justice</h3>
+                        <p class="viz-description">A visual advocacy project about justice and remembrance for victims of human rights violations during the Martial Law era</p>
+                        <p class="viz-team">Clark Tagalog, Arcel Bacuetes, Zynea Balistoy, Gem Nicole Diones, Emmanuel Sevilla</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Emmanuel R. Sevilla. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-image" src="" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
